@@ -26,6 +26,7 @@ RUN apk add --no-cache \
         redis==2.10.5 \
         sqlalchemy-redshift==0.5.0 \
         sqlalchemy-clickhouse==0.1.1.post3 \
+        snowflake-sqlalchemy==1.0.7 \
         superset==$SUPERSET_VERSION && \
     addgroup superset && \
     adduser -h /home/superset -G superset -D superset && \
